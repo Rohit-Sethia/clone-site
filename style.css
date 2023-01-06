@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-all-centre {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header {
+    background: purple;
+    font-family: 'Prosto One', cursive;
+}
+
+nav {
+    display: flex;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+.logo img {
+    width: 24px;
+    padding: 0 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 25px;
+    width: 400px;
+    border-radius: 2px;
+    margin: 0 6px 0 27px;
+    padding: 0 10px;
+}
+.btn
+{
+    padding: 0 6px;
+    color: blue;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: 'Prosto One', cursive;
+    border-radius: 10px ;
+
+}
+nav ul {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 23px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: blue;
+    font-weight: bold;
+
+}
+.slider{
+    margin: auto;
+    margin: 20px auto ;
+    width: 60vw;
+
+}
+.card{
+    /*background: rgb(248, 149, 149);*/
+    max-width: 80vw;
+    margin: auto;
+}
+.carditems{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 15vh;
+}
+.lines{
+    width: 10vw;
+    display: inline-flex;
+}
+.container {
+    min-height: calc(100vh - 20px - 17vh);
+}
+h2{
+    margin: 20px 0;
+}
+button{
+    background: blue;
+    color: rgb(228, 224, 224);
+    cursor: pointer;
+    font-family: 'Prosto One', cursive;
+    border-radius: 5px ;
+}
+.text-centre{
+    text-align: center;
+    justify-content: center;
+    width: 7vw;
+}
+footer {
+    height: 10vh;
+    background-color: aquamarine;
+    color: brown;
+    font-family: 'Prosto One', cursive;
+}
